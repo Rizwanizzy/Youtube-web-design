@@ -114,14 +114,16 @@ nav{
     border-radius: 20px;
     margin-right: 15px;
 }
+
+/* ----------------------------small-sidebar---------------------------- */
 .small-sidebar{
     width:5%;
+    
 }
 
-.small-sidebar .shortcut-links p{
+.small-sidebar a p{
     font-size: 11px;
-    margin-left: 0px;
-    
+    display:none;
 }
 .small-sidebar .shortcut-links img{
     margin-bottom: 5px;
@@ -161,6 +163,10 @@ nav{
     grid-row-gap: 30px;
     margin-top: 15px;
     width: 100%;
+}
+.large-list-container{
+    
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 .vid-list .thumbnail{
     width: 100%;
@@ -354,6 +360,10 @@ nav{
     width: 35px;
     border-radius: 50%;
     margin-right: 15px;
+    
+}
+.old-comment .dp{
+    margin-top: -35px;
 }
 .old-comment h3{
     font-size: 14px;
